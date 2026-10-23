@@ -17,4 +17,4 @@ Existing Python practice files from the local `pytorch learning` and `vision tra
 
 Original files remain in their original folders. Dataset files, model weights, IDE settings, books and PDFs are excluded from this repository. Future practice changes should be made deliberately in the copy you intend to maintain; the snapshot does not sync automatically.
 
-The initial log records repository preparation, not a claim that Kishan read every paper or completed the learning plan. GitHub publication remains pending account connection.
+The initial log records repository preparation, not a claim that Kishan read every paper or completed the learning plan. This repository records learning updates and practice code; research papers and project preparation are maintained separately.
