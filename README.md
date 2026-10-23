@@ -1,20 +1,26 @@
-# Daily learning — PyTorch and generative AI
+# Daily learning
 
-Kishan’s learning journal and practice-code archive, supporting preparation for a research project.
+I use this repository to keep track of my learning in PyTorch, deep learning, computer vision and generative AI.
 
-## Daily routine
+## Current focus
 
-1. Run `python3 scripts/new_day.py` to create today’s note using Asia/Kolkata time. An existing note is preserved.
-2. Write what you actually studied, changed, ran, understood and found difficult. Link the code and paper involved.
-3. Add a small code example or meaningful correction when you have one. Record the command and observed output.
-4. Run `git add .`, then `git commit -m "learning: YYYY-MM-DD topic"` and `git push` after the repository is connected to GitHub.
+- PyTorch training and evaluation.
+- Attention, Transformers and Vision Transformers.
+- Vision-language models and visual grounding.
+- Reading research papers and understanding their code.
 
-[Learning-log index](logs/README.md) · [Learning plan](LEARNING_PLAN.md) · [Existing practice inventory](practice/README.md)
+## Notes and code
 
-## Current starting point
+- [Daily notes](logs/README.md)
+- [Learning plan](LEARNING_PLAN.md)
+- [Practice code](practice/README.md)
 
-Existing Python practice files from the local `pytorch learning` and `vision transformer` folders are preserved in `practice/` as a 23 October 2026 snapshot. They include Transformer components, bilingual-data loading/tokenization, and vision-model practice. The snapshot has not been training-tested; presence of a file does not establish completion or correctness.
+The practice folder contains a copy of my existing PyTorch and Vision Transformer files. I will record commands, outputs and errors in the daily notes as I work through them.
 
-Original files remain in their original folders. Dataset files, model weights, IDE settings, books and PDFs are excluded from this repository. Future practice changes should be made deliberately in the copy you intend to maintain; the snapshot does not sync automatically.
+## Add a daily note
 
-The initial log records repository preparation, not a claim that Kishan read every paper or completed the learning plan. This repository records learning updates and practice code; research papers and project preparation are maintained separately.
+Run `python3 scripts/new_day.py`, then write what I studied, changed, ran and need to understand next. The script keeps an existing note if one already exists for that date.
+
+After updating the note and code, commit and push the changes.
+
+[Paper collection](https://github.com/kishan8354/survey-paper-collection) · [Research notes](https://github.com/kishan8354/research-project)
